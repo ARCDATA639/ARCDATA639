@@ -3,9 +3,9 @@
     position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            font-size: 24px;
+            transform: translate(-45%, -50%);
+            
+            font-size: 35px;
     
 }
 
@@ -27,9 +27,9 @@
 
 .int{
     position: absolute;
-        top: 30%;
-        left: 45%;
-        font-size: 29px;
+        top: 25%;
+        left: 40%;
+        font-size: 45px;
         display: flex;
         flex-wrap: wrap;
 }
@@ -42,6 +42,7 @@ body{
     position: absolute;
         top:10%;
         left:2%;
+        
 }
 .circle1{
     position:absolute;
@@ -104,18 +105,12 @@ body{
         left: 20%;
 }
 
-
-
-
-
-
 .circle11{
     position:absolute ;
         top: 120%;
         left: 7%;
 
 }
-
 
 .fuente2{
     
@@ -177,11 +172,12 @@ body{
 }
 
 .e-r{
-    position: absolute;
-    top:14%;
-    left:10%;
+    
     width: 1200px ;
     height: 1400px ;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .ob{
@@ -360,10 +356,13 @@ body{
 
 .tablas{
     position: absolute;
-        top: -15%; 
-        left: 32%; 
-        width: 900px;
-        height: 1200px
+        top: 5%;
+    display: block;
+        margin-left: 25%;
+        margin-right: auto;
+        
+        
+        height: 1500px
 
 }
 
@@ -447,34 +446,476 @@ body{
 
 .primero{
     width: 1400px;
-    
-
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
+
 .segundo{
     width: 1400px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
+
 .tercero{
     width: 1400px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
+
 .cuarto{
     width: 1400px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
+
 .quinto{
     width: 1400px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
+
 .sexto{
     width: 1400px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
+
 .septimo{
     width: 1400px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
+
 .octavo{
     width: 1400px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
+
 .noveno{
     width: 1400px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 
-  
-  
+.costos{
+    font-size: 40px;
+    text-align: center;
+          
+}
+
+.modelo{
+    font-size: 40px;
+    text-align: center;
+}
+
+.relacional{
+    font-size: 40px;
+    text-align: center;
+}
+
+.circle20{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+@media screen and (max-width: 768px) {
+   
+}
+
+
+
+@media screen and (min-width: 1491px) {
+    /* presentacion*/
+    .inicio{
+        font-family:Arial;
+        position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-40%, -45%);
+                width: 40%;
+                font-size: 30px;
+        
+    }
+    .nuevo{
+        position: absolute;
+            top: 30%;
+            left:-2%;
+            width: 400px;
+            border-radius: 50%;
+            opacity: 0.5;}
+    
+    .autoress{
+        position: absolute;
+            top: 80%;
+            left: 34%;
+    }
+    
+    .fuente{
+        position:absolute;
+            top: 45%;
+            left: 80%;
+            font-size: 50px;
+            text-decoration: none;
+            font-family:  'Times New Roman';
+        
+    }
+    
+    .int{
+        position: absolute;
+            top: 25%;
+            left: 40%;
+            font-size: 45px;
+            display: flex;
+            flex-wrap: wrap;
+    }
+
+    .nuevo{
+        position: absolute;
+            top: 30%;
+            left:-2%;
+            width: 600px;
+            border-radius: 50%;
+            opacity: 0.5;
+
+    
+    
+    
+    
+    }
+    .SEM{
+        position: absolute;
+            top: 2%;
+            left:90%;
+            font-size: 24px;
+            text-decoration: none;
+            color: aliceblue;
+
+    }
+
+    /* pregunta problema y justificacion  */
+
+    .pro{
+        position: absolute;
+            top:10% ;
+            left:30% ;
+            font-size:40px ;
+    
+    
+    }
+    
+    .problema{
+        position: absolute;
+            top: 20%;
+            left: 20%;
+            font-size: 24px;
+            font-family:'Segoe UI';
+            width: 800px;
+            height: 1200px;
+    }
+    
+    .just{
+        position: absolute;
+            top:35% ;
+            left:25% ;
+            font-size:40px ;
+    
+    
+    }
+    
+    .Justificacion{
+        position: absolute;
+            top: 42%;
+            left: 20%;
+            font-size: 24px;
+            font-family: 'Segoe UI' ;
+            width: 800px;
+            height: 1200px;
+    }
+
+    .tera{
+        position: absolute;
+            top:50% ;
+            left:70% ;
+            width: 500px;
+    }
+    
+    /*viabilidad y marco teorico*/
+    
+    .via{
+        position: absolute;
+            top:20% ;
+            left:25% ;
+            font-size:40px ;
+    }
+    .viabilidad{
+        position: absolute;
+            top: 30%;
+            left: 20%;
+            font-size: 24px;
+            font-family: 'Segoe UI' ;
+            width: 800px;
+            height: 1200px;
+    }
+    .marco{
+        position:absolute;
+            top:100% ;
+            left:25% ;
+            font-size:40px ;
+           
+            
+    }
+    .marcoteorico{
+        position: absolute;
+            top: 110%;
+            left: 20%;
+            font-size: 24px;
+            font-family: 'Segoe UI' ;
+            width: 800px;
+            height: 1200px;
+    }
+    .antecedentes{
+        position: absolute;
+            top:125% ;
+            left:20% ;
+            font-size:40px ;
+    }
+    .antecedentesdelainvestigacion{
+        position: absolute;
+            top: 135%;
+            left: 20%;
+            font-size: 24px;
+            font-family: 'Segoe UI' ;
+            width: 800px;
+            height: 1200px;
+    }
+    .bases{
+        position: absolute;
+            top:205% ;
+            left:20% ;
+            font-size:40px ;
+    }
+    .basesteoricas{
+        position: absolute;
+            top: 215%;
+            left: 20%;
+            font-size: 24px;
+            font-family: 'Segoe UI' ;
+            width: 800px;
+            height: 1200px;
+    }.avances{
+        position: absolute;
+            top:260%;
+            left:20% ;
+            font-size:40px ;
+    }
+    .avancestecno{
+        position: absolute;
+            top: 270%;
+            left: 20%;
+            font-size: 24px;
+            font-family: 'Segoe UI' ;
+            width: 800px;
+            height: 1200px;
+    }
+    
+    .viabili{
+        position: absolute;
+            top:15% ;
+            left:7% ;
+            width:200px ;
+    }
+    
+    .web{
+        position: absolute;
+            top:120% ;
+            left:80% ;
+            width: 300px;
+    }
+    
+    .html{
+        position: absolute;
+            top:190% ;
+            left:80% ;
+            width: 300px;
+    }
+    
+    .salud{
+        position: absolute;
+            top:270% ;
+            left:80% ;
+            width: 300px;
+    }
+    
+    .sup1{
+        position: absolute;
+            top:270% ;
+            left:80% ;
+            width: 100px;
+    }
+    
+    .inf1{
+        position: absolute;
+            top:300% ;
+            left:60% ;
+            width: 140px;
+    }
+    
+}
+
+@media screen and (max-width: 1490px) {
+    /*presentación*/
+    .inicio{
+        font-family:Arial;
+        position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-40%, -45%);
+                width: 40%;
+                font-size: 30px;
+        
+    }
+    .nuevo{
+        position: absolute;
+            top: 30%;
+            left:-2%;
+            width: 400px;
+            border-radius: 50%;
+            opacity: 0.5;}
+    
+    .autoress{
+        position: absolute;
+            top: 80%;
+            left: 34%;
+    }
+    
+    .fuente{
+        position:absolute;
+            top: 45%;
+            left: 80%;
+            font-size: 50px;
+            text-decoration: none;
+            font-family:  'Times New Roman';
+        
+    }
+    
+    .int{
+        position: absolute;
+            top: 25%;
+            left: 40%;
+            font-size: 45px;
+            display: flex;
+            flex-wrap: wrap;
+    }
+
+    .nuevo{
+        position: absolute;
+            top: 33%;
+            left:-2%;
+            width: 400px;
+            border-radius: 50%;
+            opacity: 0.5;
+
+    
+    
+    
+    
+    }
+    .SEM{
+        position: absolute;
+            top: 2%;
+            left:90%;
+            font-size: 24px;
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+    /*pregunta problema y justificación*/
+    
+    .tera{
+        position: absolute;
+            top:60% ;
+            left:75% ;
+            width: 300px;
+    
+    }
+
+    .pro{
+        position: absolute;
+            top:10% ;
+            left:30% ;
+            font-size:35px ;
+    
+    
+    }
+    
+    .problema{
+        position: absolute;
+            top: 18%;
+            left: 20%;
+            font-size: 22px;
+            font-family:'Segoe UI';
+            width: 700px;
+            
+    }
+    
+    .just{
+        position: absolute;
+            top:30% ;
+            left:25% ;
+            font-size:40px ;
+    
+    
+    }
+    
+    .Justificacion{
+        position: absolute;
+            top: 38%;
+            left: 20%;
+            font-size: 22px;
+            font-family: 'Segoe UI' ;
+            width: 800px;
+            height: 1200px;
+    }
+
+    /*viabilidad y marco teorico */
+
+    .viabili{
+        position: absolute;
+            top:15% ;
+            left:7% ;
+            width:200px ;
+    }
+    
+    .web{
+        position: absolute;
+            top:120% ;
+            left:80% ;
+            width: 250px;
+    }
+    
+    .html{
+        position: absolute;
+            top:190% ;
+            left:80% ;
+            width: 250px;
+    }
+    
+    .salud{
+        position: absolute;
+            top:270% ;
+            left:80% ;
+            width: 250px;
+    }
+}
